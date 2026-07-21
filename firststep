@@ -1,8 +1,10 @@
+from datetime import datetime, timedelta
 
-age = 13
+d = datetime.today()
 
-if age >= 13:
-    print("Можна")
-else:
-    print("Тобі сюди не можна")
-    
+x = datetime(2022, 2, 24)
+
+b = d.year - x.year
+print(b)
+
+  
